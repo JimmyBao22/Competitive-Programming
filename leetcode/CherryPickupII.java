@@ -63,7 +63,8 @@ public class CherryPickupII {
 		return x < 0 || y < 0|| x >= n || y >= m;
 	}
 	
-	// NOTE: Both dijkstras and bfs --> TLE, even in c++
+	// NOTE: Both dijkstras and bfs --> TLE
+		// dijkstras implementation is incorrect though, should use visited array not memo
 	
 	public void dijkstras(int[][] grid) {
 		PriorityQueue<int[]> pq = new PriorityQueue<>(new Comparator<int[]>() {
