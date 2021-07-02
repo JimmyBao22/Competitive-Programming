@@ -1,2 +1,1 @@
-Codeforces
 https://codeforces.com/
