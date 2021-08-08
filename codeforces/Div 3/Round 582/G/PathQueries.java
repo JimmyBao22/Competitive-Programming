@@ -4,7 +4,7 @@ import java.io.*;
 
 public class PathQueries {
 
-	// https://codeforces.com/gym/335765/problem/B
+	// https://codeforces.com/problemset/problem/1213/G
 	
 	public static void main(String[] args) throws IOException, FileNotFoundException {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));

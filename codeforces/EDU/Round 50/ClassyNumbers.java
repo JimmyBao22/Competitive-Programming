@@ -4,7 +4,7 @@ import java.io.*;
 
 public class ClassyNumbers {
 
-	// https://codeforces.com/gym/335765/problem/A
+	// https://codeforces.com/problemset/problem/1036/C
 	
 	static long[][][][] memo;
 	
