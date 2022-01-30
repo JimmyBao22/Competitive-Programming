@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="AtCoder"/>
+	<classpathentry kind="src" path="binarysearch"/>
+	<classpathentry kind="src" path="codeforces/Div 1/Round 200/C"/>
+	<classpathentry kind="src" path="codeforces/Div 1/Round 240/B"/>
+	<classpathentry kind="src" path="codeforces/Div 1/Round 259/A"/>
+	<classpathentry kind="src" path="codeforces/Div 1/Round 260/B"/>
+	<classpathentry kind="src" path="codeforces/Div 1/Round 284/A"/>
+	<classpathentry kind="src" path="codeforces/Div 1/Round 364/B"/>
+	<classpathentry kind="src" path="codeforces/Div 1/Round 462/A"/>
+	<classpathentry kind="src" path="codeforces/Div 1/Round 542/A"/>
+	<classpathentry kind="src" path="codeforces/Div 1/Round 580/B"/>
+	<classpathentry kind="src" path="codeforces/Div 1/Round 96/C"/>
+	<classpathentry kind="src" path="codeforces/Div 1/Round FF/A"/>
+	<classpathentry kind="src" path="codeforces/Div 2/CodeCraft-20/E"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 112/C"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 178/C"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 205/C"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 244/C"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 247/C"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 262/C"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 267/C"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 286/C"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 287/C"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 293/D"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 296/D"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 332/C"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 403/B"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 418/C"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 632/C"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 639/D"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 642/D"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 646/D"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 648/D"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 649/C"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 649/D"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 658/D"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 662/C"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 664/D"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 689/D"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 699/C"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 705/D"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 715/C"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 715/D"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 716/D"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 717/B"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 72/C"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 729/B"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round 89/D"/>
+	<classpathentry kind="src" path="codeforces/Div 2/Round Pi/C"/>
+	<classpathentry kind="src" path="codeforces/Div 3/Round 481/G"/>
+	<classpathentry kind="src" path="codeforces/Div 3/Round 582/G"/>
+	<classpathentry kind="src" path="codeforces/Div 3/Round 627/E"/>
+	<classpathentry kind="src" path="codeforces/Div 3/Round 636/D"/>
+	<classpathentry kind="src" path="codeforces/Div 3/Round 690/F"/>
+	<classpathentry kind="src" path="codeforces/EDU/Round 10/D"/>
+	<classpathentry kind="src" path="codeforces/EDU/Round 101/C"/>
+	<classpathentry kind="src" path="codeforces/EDU/Round 103/D"/>
+	<classpathentry kind="src" path="codeforces/EDU/Round 13/C"/>
+	<classpathentry kind="src" path="codeforces/EDU/Round 22/C"/>
+	<classpathentry kind="src" path="codeforces/EDU/Round 50"/>
+	<classpathentry kind="src" path="codeforces/EDU/Round 52/C"/>
+	<classpathentry kind="src" path="codeforces/EDU/Round 56/D"/>
+	<classpathentry kind="src" path="codeforces/EDU/Round 60/C"/>
+	<classpathentry kind="src" path="codeforces/EDU/Round 71/C"/>
+	<classpathentry kind="src" path="codeforces/EDU/Round 83/C"/>
+	<classpathentry kind="src" path="codeforces/Gym/AlgorithmsThread Tree Basics/A"/>
+	<classpathentry kind="src" path="codeforces/Gym/AlgorithmsThread Tree Basics/B"/>
+	<classpathentry kind="src" path="codeforces/Gym/AlgorithmsThread Tree Basics/C"/>
+	<classpathentry kind="src" path="codeforces/Gym/AlgorithmsThread Tree Basics/D"/>
+	<classpathentry kind="src" path="codeforces/Gym/AlgorithmsThread Tree Basics/E"/>
+	<classpathentry kind="src" path="codeforces/Gym/AlgorithmsThread Tree Basics/F"/>
+	<classpathentry kind="src" path="codeforces/Gym/Matrix Exponentiation/A"/>
+	<classpathentry kind="src" path="codeforces/Gym/Matrix Exponentiation/B"/>
+	<classpathentry kind="src" path="codeforces/Gym/Matrix Exponentiation/C"/>
+	<classpathentry kind="src" path="codeforces/Gym/Matrix Exponentiation/D"/>
+	<classpathentry kind="src" path="codeforces/Gym/Matrix Exponentiation/E"/>
+	<classpathentry kind="src" path="codeforces/Gym/Matrix Exponentiation/F"/>
+	<classpathentry kind="src" path="codeforces/Gym/MBIT Advanced 2019/C"/>
+	<classpathentry kind="src" path="codeforces/Gym/MBIT Advanced 2019/D"/>
+	<classpathentry kind="src" path="codeforces/Gym/MBIT Advanced 2019/G"/>
+	<classpathentry kind="src" path="codeforces/Gym/MBIT Advanced Fall 2020/C"/>
+	<classpathentry kind="src" path="codeforces/Gym/MBIT Advanced Fall 2020/D"/>
+	<classpathentry kind="src" path="codeforces/Gym/MBIT Standard Spring 2020/I"/>
+	<classpathentry kind="src" path="codeforces/Gym/MBIT Standard Spring 2020/L"/>
+	<classpathentry kind="src" path="codeforces/Gym/Pingry March 2021/G"/>
+	<classpathentry kind="src" path="codeforces/Gym/Pingry March 2021/H"/>
+	<classpathentry kind="src" path="codeforces/Gym/USACOGuide/C"/>
+	<classpathentry kind="src" path="codeforces/Special/2017-2018 ACM-ICPC/B"/>
+	<classpathentry kind="src" path="codeforces/Special/2017-2018 ACM-ICPC/E"/>
+	<classpathentry kind="src" path="codeforces/Special/8VC Venture Cup 2016/F"/>
+	<classpathentry kind="src" path="codeforces/Special/Canada Cup 2016/D"/>
+	<classpathentry kind="src" path="codeforces/Special/CEOI 2020, Day 1/A"/>
+	<classpathentry kind="src" path="codeforces/Special/Codefest 16/C"/>
+	<classpathentry kind="src" path="codeforces/Special/Codefest 17/B"/>
+	<classpathentry kind="src" path="codeforces/Special/Codeforces Alpha/Round 20/C"/>
+	<classpathentry kind="src" path="codeforces/Special/Codeforces Global Round 11/C"/>
+	<classpathentry kind="src" path="codeforces/Special/Codeforces Global Round 12/C"/>
+	<classpathentry kind="src" path="codeforces/Special/Codeforces Global Round 12/D"/>
+	<classpathentry kind="src" path="codeforces/Special/GoodBye 2020/E"/>
+	<classpathentry kind="src" path="codeforces/Special/Grakn Forces 2020/D"/>
+	<classpathentry kind="src" path="leetcode"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
