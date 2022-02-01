@@ -115,7 +115,7 @@ public class WorldPeace {
 		}
 	}
 }
-
+ 
 /*
 	World Peace
 	Binary search on answer
