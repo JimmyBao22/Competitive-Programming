@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="AtCoder"/>
-	<classpathentry kind="src" path="binarysearch"/>
+	<classpathentry kind="src" path="Binarysearch"/>
 	<classpathentry kind="src" path="codeforces/Div 1/Round 200/C"/>
 	<classpathentry kind="src" path="codeforces/Div 1/Round 240/B"/>
 	<classpathentry kind="src" path="codeforces/Div 1/Round 259/A"/>
@@ -101,6 +101,6 @@
 	<classpathentry kind="src" path="codeforces/Special/Codeforces Global Round 12/D"/>
 	<classpathentry kind="src" path="codeforces/Special/GoodBye 2020/E"/>
 	<classpathentry kind="src" path="codeforces/Special/Grakn Forces 2020/D"/>
-	<classpathentry kind="src" path="leetcode"/>
+	<classpathentry kind="src" path="Leetcode"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
