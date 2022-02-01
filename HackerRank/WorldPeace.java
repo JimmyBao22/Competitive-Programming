@@ -117,10 +117,9 @@ public class WorldPeace {
 }
 
 /*
-World Peace
-Binary search on answer
-	Then simulate to check
-		connect all trees with union find, 
-		then loop through all pairs to see if each pair has same parent (same tree)
-
+	World Peace
+	Binary search on answer
+		Then simulate to check
+			connect all trees with union find, 
+			then loop through all pairs to see if each pair has same parent (same tree)
 */
