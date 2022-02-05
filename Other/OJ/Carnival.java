@@ -2,7 +2,7 @@
 import java.util.*;
 import java.io.*;
 
-public class carnival {
+public class Carnival {
 
 	// https://oj.uz/problem/view/CEOI14_carnival
 	
