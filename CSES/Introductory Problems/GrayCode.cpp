@@ -18,6 +18,7 @@ typedef long long ll;
 typedef long double ld;
 #define pb push_back
 
+// https://cses.fi/problemset/task/2205
 
 int main() {
     ios::sync_with_stdio(0);
