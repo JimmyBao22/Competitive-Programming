@@ -9,8 +9,9 @@ Silver:
 - 2017-2018/February/Teleportation
 - 2018-2019/US Open/Cow Steeplechase II
 - 2020-2021/January/Spaced Out
-- 2020-2021/February 
-- 2020-2021/US Open
+- 2020-2021/February/Just Green Enough
+- 2020-2021/US Open/Maze Tac Toe
+- 2020-2021/US Open/Do You Know Your ABCs?
 - 2021-2022 and onwards
 
 Gold:
