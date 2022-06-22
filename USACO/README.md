@@ -12,7 +12,8 @@ Silver:
 - 2020-2021/February/Just Green Enough
 - 2020-2021/US Open/Maze Tac Toe
 - 2020-2021/US Open/Do You Know Your ABCs?
-- 2021-2022 and onwards
+- 2021-2022/December/Closest Cow Wins
+- 2021-2022/January and onwards
 
 Gold:
 - 2011-2012 Season
