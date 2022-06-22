@@ -8,15 +8,15 @@ public class ConvolutedIntervals {
 	
 	public static void main(String[] args) throws IOException, FileNotFoundException {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-		//      BufferedReader in = new BufferedReader(new FileReader("a.in"));
-		//		PrintWriter out = new PrintWriter(new FileWriter("a.out"));
+		//      BufferedReader in = new BufferedReader(new FileReader("ConvolutedIntervals.in"));
+		//	PrintWriter out = new PrintWriter(new FileWriter("ConvolutedIntervals.out"));
 
 		StringTokenizer st = new StringTokenizer(in.readLine());
 		int n = Integer.parseInt(st.nextToken());
 		int m = Integer.parseInt(st.nextToken());
 		long[] number_line = new long[2*m+1];
 		long[] start_count = new long[2*m+1];
-		long[] end_count = new long[2*m+2];
+		long[] end_count = new long[2*m+1];
 		int[][] arr = new int[n][2];
 		for (int i=0; i<n; i++) {
 			st = new StringTokenizer(in.readLine());
