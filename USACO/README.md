@@ -13,7 +13,9 @@ Silver:
 - 2020-2021/US Open/Maze Tac Toe
 - 2020-2021/US Open/Do You Know Your ABCs?
 - 2021-2022/December/Closest Cow Wins
-- 2021-2022/January and onwards
+- 2021-2022/January/Searching for Soulmates
+- 2021-2022/January/Cereal 2
+- 2021-2022/February and onwards
 
 Gold:
 - 2011-2012 Season
