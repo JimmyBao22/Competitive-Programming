@@ -15,7 +15,7 @@ public class socdist {
 
 		StringTokenizer st = new StringTokenizer(in.readLine());
 		n = Integer.parseInt(st.nextToken());  
-	    m = Integer.parseInt(st.nextToken());  
+	   	m = Integer.parseInt(st.nextToken());  
 
 		long max = 0;
 		long min = (long)1e18;
