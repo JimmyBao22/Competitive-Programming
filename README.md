@@ -1,5 +1,5 @@
 # CompetitiveProgramming
-My competitive programming stuff 
+My competitive programming solutions to different problems 
 
-- includes only the good stuff
-- excludes some special stuff stored in other repositories
+- includes only my most interesting problem solutions
+- excludes some special problem solutions stored in other repositories
