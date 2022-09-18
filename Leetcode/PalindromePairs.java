@@ -10,11 +10,13 @@ public class PalindromePairs {
         	System.out.println(a.get(i).toString());
         }
     }
+	
+	// https://leetcode.com/problems/palindrome-pairs/
 
     static long mod = (long)(1e9+7);
-	static int n, MaxM;
-	static long[] power;
-	static long p = 911382323;
+    static int n, MaxM;
+    static long[] power;
+    static long p = 911382323;
     static long[][] forwardHashes, backwardHashes;
     public static List<List<Integer>> palindromePairs(String[] words) {
         n = words.length;
