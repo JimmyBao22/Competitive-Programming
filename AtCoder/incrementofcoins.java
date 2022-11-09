@@ -2,7 +2,7 @@
 import java.util.*;
 import java.io.*;
 
-public class incrementofcoins {
+public class IncrementOfCoins {
 
 	// https://atcoder.jp/contests/abc184/tasks/abc184_d
 	
