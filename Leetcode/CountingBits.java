@@ -1,7 +1,4 @@
 
-import java.util.*;
-import java.io.*;
-
 public class CountingBits {
 
 	// https://leetcode.com/problems/counting-bits/
