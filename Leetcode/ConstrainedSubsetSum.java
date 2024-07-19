@@ -19,7 +19,7 @@ public class ConstrainedSubsetSum {
         PriorityQueue<int[]> a = new PriorityQueue<>(
         		new Comparator<int[]>() {
         			public int compare(int[] x, int[] y) {
-        				return y[0]-x[0];						// largest first
+        				return y[0]-x[0];	// sort by largest first
         			}
         });
         

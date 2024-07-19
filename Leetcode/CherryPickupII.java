@@ -16,8 +16,8 @@ public class CherryPickupII {
 	public int cherryPickup(int[][] grid) {
         n = grid.length;
         m = grid[0].length;
+		// x coord, first one y, second one y = max
         memo = new int[n][m][m];
-        	// x coord, first one y, second one y = max
 
         for (int i=0; i<n; i++) {
         	for (int j=0; j<m; j++) {
