@@ -16,24 +16,23 @@ public class ConstrainedSubsetSum {
         for (int i = 0; i < nums.length; i++) {
         	dp[i] = nums[i];
         }
-        PriorityQueue<int[]> a = new PriorityQueue<>(
-        		new Comparator<int[]>() {
-        			public int compare(int[] x, int[] y) {
-        				return y[0]-x[0];	// sort by largest first
-        			}
+        PriorityQueue<int[]> pq = new PriorityQueue<>(new Comparator<int[]>() {
+			public int compare(int[] x, int[] y) {
+				return y[0] - x[0];	// sort by largest first
+			}
         });
         
-        int[] temp = new int[] {dp[0], 0};
-        a.add(temp);
+        int[] currentSubset = new int[] {dp[0], 0};
+        pq.add(currentSubset);
         
         for (int i = 1; i < nums.length; i++) {
-    		while (a.size() > 0) {
-    			if (a.peek()[1]  < i-k) a.poll();
+    		while (pq.size() > 0) {
+    			if (pq.peek()[1] < i-k) pq.poll();
     			else break;
     		} 
-    		dp[i] = Math.max(dp[i], nums[i] + a.peek()[0]);
-    		int[] temp2 = new int[] {dp[i], i};
-    		a.add(temp2);
+    		dp[i] = Math.max(dp[i], nums[i] + pq.peek()[0]);
+    		currentSubset = new int[] {dp[i], i};
+    		pq.add(currentSubset);
         }
         int max = Integer.MIN_VALUE;
         for (int i = 0; i < dp.length; i++) {

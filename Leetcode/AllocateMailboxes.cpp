@@ -1,7 +1,7 @@
 #include <vector>
 using namespace std;
 
-class Solution {
+class AllocateMailboxes {
 public:
 
     // https://leetcode.com/problems/allocate-mailboxes/description/
