@@ -1,7 +1,3 @@
-
-import java.util.*;
-import java.io.*;
-
 public class CountSquareSubmatriceswithAllOnes {
 
 	// https://leetcode.com/problems/count-square-submatrices-with-all-ones/

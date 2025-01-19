@@ -1,6 +1,6 @@
-// https://leetcode.com/problems/design-add-and-search-words-data-structure/
-
 class WordDictionary {
+    
+    // https://leetcode.com/problems/design-add-and-search-words-data-structure/
 
     Trie t;
 

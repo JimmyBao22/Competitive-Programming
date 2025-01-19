@@ -1,7 +1,3 @@
-
-import java.util.*;
-import java.io.*;
-
 public class MinimumNumberofDaystoMakemBouquets {
 
 	// https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
