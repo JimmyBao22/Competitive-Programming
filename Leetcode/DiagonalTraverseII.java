@@ -1,6 +1,4 @@
-
 import java.util.*;
-import java.io.*;
 
 public class DiagonalTraverseII {
 
@@ -39,7 +37,6 @@ public class DiagonalTraverseII {
 		   for (int j = 0; j < nums.get(i).size(); j++) {
 			   if (!map.containsKey(i+j)) {
 				   map.put(i+j, new ArrayList<>());
-				   ArrayList<Integer> cur = new ArrayList<>();
 			   }
 			   map.get(i+j).add(nums.get(i).get(j));
 		   }

@@ -7,6 +7,7 @@ public class LongestPathWithDifferentAdjacentCharacters {
 
     private List<Integer>[] g;
 
+    @SuppressWarnings("unchecked")
     public int longestPath(int[] parent, String s) {
         int n = parent.length;
         g = new ArrayList[n];

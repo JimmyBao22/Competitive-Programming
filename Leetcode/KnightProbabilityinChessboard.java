@@ -1,7 +1,3 @@
-
-import java.util.*;
-import java.io.*;
-
 public class KnightProbabilityinChessboard {
 
 	// https://leetcode.com/problems/knight-probability-in-chessboard/

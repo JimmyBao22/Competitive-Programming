@@ -1,7 +1,3 @@
-
-import java.util.*;
-import java.io.*;
-
 public class PalindromicSubstrings {
 
 	// https://leetcode.com/problems/palindromic-substrings/

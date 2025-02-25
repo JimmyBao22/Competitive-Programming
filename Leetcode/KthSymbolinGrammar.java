@@ -1,7 +1,3 @@
-
-import java.util.*;
-import java.io.*;
-
 public class KthSymbolinGrammar {
 
 	// https://leetcode.com/problems/k-th-symbol-in-grammar/

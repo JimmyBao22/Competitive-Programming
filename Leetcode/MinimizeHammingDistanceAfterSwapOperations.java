@@ -1,6 +1,4 @@
-
 import java.util.*;
-import java.io.*;
 
 public class MinimizeHammingDistanceAfterSwapOperations {
 
@@ -13,6 +11,7 @@ public class MinimizeHammingDistanceAfterSwapOperations {
 	ArrayList<Integer>[] g;
 	HashMap<Integer, Integer> counts, countt;
 	boolean[] visited;
+	@SuppressWarnings("unchecked")
 	public int minimumHammingDistance(int[] source, int[] target, int[][] allowedSwaps) {
         int n = source.length;
         int m = allowedSwaps.length;

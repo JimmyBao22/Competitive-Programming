@@ -7,6 +7,7 @@ public class CountSubtreesWithMaxDistanceBetweenCities {
     ArrayList<Integer>[] g;
     int d, count;
 
+    @SuppressWarnings("unchecked")
     public int[] countSubgraphsForEachDiameter(int n, int[][] edges) {
         // O(n 2^n)
         // try 2^n possibilities. then create the tree and iterate through

@@ -11,6 +11,7 @@ public class ParallelCoursesIII {
     int[] indegree;
     int[] minTime;
 
+    @SuppressWarnings("unchecked")
     public int minimumTime(int n, int[][] relations, int[] time) {
         g = new ArrayList[n];
         indegree = new int[n];

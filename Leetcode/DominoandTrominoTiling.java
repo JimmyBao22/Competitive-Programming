@@ -1,7 +1,3 @@
-
-import java.util.*;
-import java.io.*;
-
 public class DominoandTrominoTiling {
 
 	// https://leetcode.com/problems/domino-and-tromino-tiling/

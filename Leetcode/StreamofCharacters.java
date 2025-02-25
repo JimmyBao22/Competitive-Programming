@@ -1,7 +1,3 @@
-
-import java.util.*;
-import java.io.*;
-
 class StreamChecker {
 
 	// https://leetcode.com/problems/stream-of-characters/ 

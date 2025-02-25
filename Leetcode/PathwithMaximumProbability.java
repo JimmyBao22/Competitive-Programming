@@ -1,6 +1,4 @@
-
 import java.util.*;
-import java.io.*;
 
 public class PathwithMaximumProbability {
 
@@ -15,6 +13,7 @@ public class PathwithMaximumProbability {
 	static int n;
 	static long INF = (long)(1e18);
 	
+	@SuppressWarnings("unchecked")
 	public static double maxProbability(int num, int[][] edges, double[] succProb, int start, int end) {
 		n = num;
 		g = new ArrayList[n];

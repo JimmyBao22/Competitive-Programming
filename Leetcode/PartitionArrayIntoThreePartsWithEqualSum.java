@@ -1,7 +1,3 @@
-
-import java.util.*;
-import java.io.*;
-
 public class PartitionArrayIntoThreePartsWithEqualSum {
 
 	// https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/

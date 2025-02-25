@@ -12,6 +12,7 @@ class FindBuildingWhereAliceandBobCanMeet {
         int n = heights.length;
         int q = queries.length;
 
+        @SuppressWarnings("unchecked")
         List<Integer>[] queriesByIndices = new ArrayList[n];
         for (int i = 0; i < n; i++) {
             queriesByIndices[i] = new ArrayList<>();
@@ -42,7 +43,6 @@ class FindBuildingWhereAliceandBobCanMeet {
         TreeSet<Integer> indicesAvailable = new TreeSet<>();
         for (int i = 0; i < n; i++) {
             Pair curPair = sortedHeights[i];
-            int curHeight = curPair.getKey();
             int curIndex = curPair.getValue();
 
             // go through all queries associted with this index

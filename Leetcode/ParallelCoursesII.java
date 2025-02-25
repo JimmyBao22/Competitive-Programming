@@ -12,6 +12,7 @@ public class ParallelCoursesII {
     private int[] indegree;
     private static final int INF = (int)(1e9);
 
+    @SuppressWarnings("unchecked")
     public int minNumberOfSemesters(int n, int[][] relations, int k) {
         g = new ArrayList[n];
         indegree = new int[n];

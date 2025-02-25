@@ -7,6 +7,7 @@ public class DivideNodesIntotheMaximumNumberofGroups {
     ArrayList<Integer>[] g;
     DSU dsu;
 
+    @SuppressWarnings("unchecked")
     public int magnificentSets(int n, int[][] edges) {
         g = new ArrayList[n];
         for (int i = 0; i < n ; i++) {
