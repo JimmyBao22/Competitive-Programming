@@ -1,7 +1,3 @@
-
-import java.util.*;
-import java.io.*;
-
 public class LargestSquareSubmatrix {
 
 	public static void main(String[] args) {

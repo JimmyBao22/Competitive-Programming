@@ -5,7 +5,7 @@ import java.io.*;
 public class SinkingIslands {
 
 	public static void main(String[] args) throws IOException, FileNotFoundException {
-		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+		// BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		//BufferedReader in = new BufferedReader(new FileReader("SinkingIslands"));
 
 		int[][] board = {

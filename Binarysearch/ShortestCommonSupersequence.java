@@ -1,10 +1,7 @@
-
 import java.util.*;
-import java.io.*;
 
 public class ShortestCommonSupersequence {
 
-	
 	public static void main(String[] args) {
 		System.out.println(solve("bell", "yellow"));
 	}
