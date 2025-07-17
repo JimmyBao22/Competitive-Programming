@@ -1,40 +1,33 @@
 public class TrappingRainWater {
 
+    // https://leetcode.com/problems/trapping-rain-water/
+
 	public static void main(String[] args) {
 		int[] arr = new int[] {0,1,0,2,1,0,1,3,2,1,2,1};
 		System.out.println(trap(arr));
 	}
 	
-	// https://leetcode.com/problems/trapping-rain-water/
-
-	public static int trap(int[] height) {
-        int[] arr = new int[height.length+2];
-        // add '0' to both sides
-        for (int i=0; i<height.length; i++) {
-            arr[i+1] = height[i];
-        }
-        int n = arr.length;
-        
-        int[] psum = new int[n];
-        for (int i=1; i<n; i++) psum[i] = psum[i-1] + arr[i];
-        
-        int[] maxgoingright = new int[n];
-        int[] maxgoingleft = new int[n];
-        for (int i=1; i<n; i++) {
-        	maxgoingleft[i] = Math.max(maxgoingleft[i-1], arr[i]);
-        }
-        for (int i=n-2; i>=0; i--) {
-        	maxgoingright[i] = Math.max(maxgoingright[i+1], arr[i]);
-        }
- 
-        int ans = 0;
-        
-        for (int i=1; i<n-1; i++) {
-        	int boundaries = Math.min(maxgoingleft[i], maxgoingright[i]);
-        	int diff = boundaries - arr[i];
-        	ans += diff;
+    public static int trap(int[] height) {
+        int n = height.length;
+        int l = 0;
+        int r = n-1;
+        int maxL = 0;
+        int maxR = 0;
+        int trappedRainwater = 0;
+        while (l <= r) {
+            maxL = Math.max(maxL, height[l]);
+            maxR = Math.max(maxR, height[r]);
+            int minBoth = Math.min(maxL, maxR);
+            if (height[l] <= height[r]) {
+                trappedRainwater += Math.max(0, minBoth - height[l]);
+                l++;
+            }
+            else {
+                trappedRainwater += Math.max(0, minBoth - height[r]);
+                r--;
+            }
         }
         
-        return ans;
+        return trappedRainwater;
     }
 }
