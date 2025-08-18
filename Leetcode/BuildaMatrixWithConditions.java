@@ -6,6 +6,8 @@ import java.util.Map;
 import java.util.Queue;
 
 public class BuildaMatrixWithConditions {
+
+    // https://leetcode.com/problems/build-a-matrix-with-conditions/description/
     
     public int[][] buildMatrix(int k, int[][] rowConditions, int[][] colConditions) {
         // build a topological sort using both row conditions and col conditions
